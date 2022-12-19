@@ -1,4 +1,8 @@
-self.addEventListener('push', ()=>{
-    self.registration.sendNotification('test message',{})
+self.addEventListener('push', (e)=>{
+    var options ={
+        body:" this notification",
+        icon:"./icon.png"
+    }
+    e.waitUntil(self.registration.showNotification('test message',options))
 
 })
