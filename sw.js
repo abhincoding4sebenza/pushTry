@@ -1,8 +1,8 @@
 // self.addEventListener('push', (e)=>{
-//     var options ={
-//         body:" this notification",
-//         icon:"./icon.png"
-//     }
+    var options ={
+        body:" this notification",
+        icon:"./icon.png"
+    }
 //     e.waitUntil(self.registration.showNotification('test message',options))
 
 // })
