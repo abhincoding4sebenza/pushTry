@@ -9,6 +9,7 @@
 self.addEventListener('push', () => {
     self.registration.showNotification('Hello world!', {
         body:" this notification",
-        icon:"./icon.png"
+        icon:"./icon.png",
+        link:"https://sebenza.tech"
     });
   });
